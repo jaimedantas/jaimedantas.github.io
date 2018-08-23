@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>N-Rainhas</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="jquery.js"></script>
+	<script src="bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<div class="container-fluid">
+		<div class="jumbotron" style="text-align:center"><h1>N-Rainhas<small> N-Queens problem <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal"><span class="label label-primary">More info.</span></button></small></h1></div>
+		<div class="col-xs-12 col-sm-12 col-md-6 alert alert-info">
+			<h3>Algoritmo Genético<small> Genetic Algorithm</small></h3>
+			<form action="chessboard.php" method="GET">
+		  		<fieldset class="form-group">
+		    	<label for="tamCromossomo">Tamanho do Tabuleiro</label>
+					<input type="number" class="form-control" name="tamCromossomo"  placeholder="Ex.: 8"/>
+					<p class="help-block">Chessboard size</p>
+				</fieldset>
+				<fieldset class="form-group">
+		    	<label for="tamPop">Tamanho da População</label>
+					<input type="number" class="form-control" name="tamPop" placeholder="Ex.: 100 ~ 1000"/>
+					<p class="help-block">Population size</p>
+				</fieldset>
+				<fieldset class="form-group">
+		    	<label for="probMutacao">Probabilidade de Mutação em %</label>
+					<input type="text" class="form-control" name="probMutacao" placeholder="Ex.: 0.01 ~ 1" />
+					<p class="help-block">Mutation Probability in %</p>
+				</fieldset>
+				<fieldset class="form-group">
+		    	<label for="probCrossover">Probabilidade de Crossover em %</label>
+					<input type="text" class="form-control" name="probCrossover" placeholder="Ex.: 20 ~ 80"/>
+					<p class="help-block">Crossover Probability in %</p>
+				</fieldset>
+				<fieldset class="form-group">
+		    	<label for="qtMaxGeracoes">Quantidade Max de Gerações</label>
+					<input type="number" class="form-control" name="qtMaxGeracoes" placeholder="Ex.: 100 ~ 3000"/>
+					<p class="help-block">Max number of generations</p>
+				</fieldset>
+				<input type="submit"/>
+			</form>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 alert alert-success">
+			<h3>Simulate Annealing</h3>
+  			<form action="chessboard.php" method="GET">
+		  		<fieldset class="form-group">
+		    			<label for="tamCromossomo">Tamanho do Tabuleiro</label>
+					<input type="number" class="form-control" name="tamCromossomo" placeholder="Ex.: 8"/>
+					<p class="help-block">Chessboard size</p>
+				</fieldset>
+				<fieldset class="form-group">
+		    			<label for="inicialTemp">Temperatura Inicial</label>
+					<input type="number" class="form-control" name="inicialTemp" placeholder="Ex.: 10 ~ 200"/>
+					<p class="help-block">Initial temperature</p>
+				</fieldset>
+				<fieldset class="form-group">
+		    			<label for="resfriamento">Taxa de Resfriamento</label>
+					<input type="text" class="form-control" name="resfriamento" placeholder="Ex.: 0.5 ~ 0.95"/>
+					<p class="help-block">Cooling rate</p>
+				</fieldset>
+				<input type="submit"/>
+			</form>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Descrição</h4>
+		      </div>
+		      <div class="modal-body">
+		        O problema das n rainhas é o problema matemático de dispor n rainhas em um tabuleiro de xadrez de dimensão nxn, de forma que nenhuma delas seja atacada por outra. Para tanto, é necessário que duas damas quaisquer não estejam numa mesma linha, coluna, ou diagonal.
+		        <a href="https://pt.wikipedia.org/wiki/Problema_das_oito_damas">Mais info.</a>
+		        <br>
+		        <br>
+		        The n queens puzzle is the problem of placing n chess queens on an nxn chessboard so that no two queens threaten each other. Thus, a solution requires that no two queens share the same row, column, or diagonal. 
+		        <a href="https://en.wikipedia.org/wiki/Eight_queens_puzzle">More info.</a>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+</body>
+</html>

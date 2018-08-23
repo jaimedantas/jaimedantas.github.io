@@ -1,0 +1,231 @@
+<head>
+    <title>Bitcoins e Hashs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--Theme for Code-->
+    <link href="/assets/css/themes/zenburnesque.css" rel="stylesheet" type="text/css">
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <script src="assets/js/rainbow-custom.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <section id="header">
+        <header>
+            <h1 id="logo"><a href="#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="fa fa-btc"></span>itcoins</a></h1>
+            <p>Estrutura de Dados - UFRN 2015
+            </p>
+        </header>
+        <nav id="nav">
+            <ul>
+                <li><a href="#one" class="" id="one-link">Sobre</a>
+                </li>
+                <li><a href="#hashs" id="hashs-link">Hashs, Blocks e Targets</a>
+                </li>
+                <li><a href="#howToMine" id="howToMine-link">Como Minerar</a>
+                </li>
+                <li><a href="#bitcoins_hashs" id="howToMine-link">Bitcoins e Hashs</a>
+                </li>
+                <li><a href="#moreBitcoin" id="howToSetup-link">Mais sobre</a>
+                </li>
+            </ul>
+        </nav>
+        <footer>
+
+            <p>Lucas Cassiano - cassiano@mit.edu
+                <br> Jaime Dantas - jaimesjales@hotmail.com
+            <br> Gabriel Signoretti - gabrielm.sig@gmail.com</p>
+
+        </footer>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- One -->
+            <section id="one">
+                <div class="container">
+                    <header class="major">
+                        <h2><span class="fa fa-btc"></span>itcoins</h2>
+                        <p><span class="fa fa-quote-left"></span> Bitcoin é excitante porque é barato <span class="fa fa-quote-right"></span>
+                        </p>
+                    </header>
+                    <p>Entender o Bitcoin é simples. Ele é uma tecnologia digital que permite reproduzir em pagamentos eletrônicos a eficiência dos pagamento com cédulas descrita acima. Pagamentos com bitcoins são rápidos, baratos e sem intermediários. Além disso, eles podem ser feitos para qualquer pessoa, que esteja em qualquer lugar do planeta, sem limite mínimo ou máximo de valor.</p>
+                    <p>A tecnologia vem ganhando muitos adeptos mundialmente. Recentemente Bill Gates em uma entrevista ao canal de negócios TV Bloomberg disse que “o Bitcoin é excitante porque é barato”.</p>
+                    <p>Hoje é possível fazer doações em bitcoins para instituições globais como Greenpeace ou Wikipedia, ou comprar passagens aéreas na Expedia, ou dar entrada para um apartamento na Tecnica, tudo usando bitcoins.</p>
+                    <a href="https://www.bitcoinbrasil.com.br/o-que-e-bitcoin">bitcoinbrasil.com.br</a>
+                </div>
+            </section>
+
+
+            <!-- Hashs-->
+            <section id="hashs">
+                <div class="container">
+                    <header class="major">
+                        <h3>Hashs, Blocks e Targets</h3>
+                    </header>
+                        <h5>Criptografia Hash</h5> 
+                        <p>A criptografia hash permite que, através de uma string de qualquer tamanho, seja calculado um identificador digital de tamanho fixo, chamado de valor hash. O valor hash geralmente é formado por 16 bytes (no caso do MD-2, MD-4 e MD- 5) ou 20 bytes (no caso do SHA-1), mas pode se estender, embora não passe de 512 bytes.<br>
+                        Seja uma função hash H, e x uma string qualquer, teremos que H(x) será o valor hash para a string x. As características básicas de uma função hash são:
+                        </p>
+                        <ul>
+                            <li>O valor de entrada da função possui qualquer tamanho;</li>
+                            <li>
+                                O valor de saída da função possui tamanho fixo;
+                            </li>
+                            <li>
+                                H(x) é relativamente fácil de ser computado, para qualquer valor de x;
+                            </li>
+                            <li>
+                                H(x) é uma função “one-way”;</li>
+                            <li>
+                                H(x) é livre de colisão.
+                            </li>
+                        </ul>
+                        
+                            
+                        <p>
+                        Uma função hash é dita "one-way” pois uma vez obtido o valor hash h para uma string x, é computacionalmente impossível fazer o processo inverso, ou seja, encontrar um valor x tal que H(x) = h.
+
+                        <br>Diz-se ainda que H(x) é livre de colisão, significando que as funções hash devem garantir uma probabilidade mínima de que duas strings diferentes acabem por resultar no mesmo valor hash. Qualquer alteração na string original que deu origem ao identificador digital, mesmo que de um único bit, acabará por gerar uma alteração significativa no valor hash final.
+                        </p>
+                        <p>
+                        Um algoritmo de hash é uma larga quantitade arbitrária de dados dentro de um hash de tamanho fixo. O mesmo hash vai sempre ser resultado de um mesmo dado, mas modificiando os dados, mesmo que sendo em um bit, resultará na mudança total do hash. Como todos os dados computados, hashes sao grandes números e usualmente escritos em Hexadecimal.
+                        </p>
+                        <p>
+                            BitCoin usa o algoritmo hash <a href="http://en.wikipedia.org/wiki/SHA-256">SHA-256 </a> que gera números "aleatórios" em uma forma que requer bastante esforço de processamento de CPU. Gerando um hash SHA-256 com valores mentores do que o alvo (Target) atual resolve um bloco (Block) e assim consegue-se alguns bitcoins.
+
+                            <p>fonte: <a href="http://www.gta.ufrj.br/grad/07_1/ass-dig/TiposdeCriptografia.html">www.gta.ufrj.br</a>
+                            </p>
+                        </p>
+                    <center>
+                    <img src="http://blogs.msdn.com/cfs-filesystemfile.ashx/__key/communityserver-components-imagefileviewer/communityserver-blogs-components-weblogfiles-00-00-00-92-93/4670.SQLScriptHash.JPG_2D00_550x0.jpg"></img><br>
+                        <p>Exemplo de Hashs <br>
+                    <a href="blogs.msdn.com">blogs.msdn.com</a></p>
+</center>
+
+                        <p></p>
+                        <h5>Target</h5>
+                        <p></p>
+                        <p>O target é um número de 256-bit (extremamente grande) que todos os Clientes de Bitcoin compartilham. O Hash SHA-256 do cabeçalho de um bloco deve ser menor ou igual ao do Target atual para que o bloco seja aceito pela rede de bitcoins. Quanto menor for o Target, mais dificil será para que um bloco seja gerado.
+
+                            <p>font: <a href="https://en.bitcoin.it/wiki/Target">en.bitcoin.it</a>
+                            </p>
+                        </p>
+                        <h5>Block</h5>
+                        <p>Dados são permanentemente armezenados em uma Rede de Bitcoin através de arquivos chamados Blocks (blocos). Um bloco é gravado de parte das, ou todas as, transações de bitcoins que ainda não foram registradas em blocos anteriores.
+                            <p>Novos blocos são adicionados ao fim do registro dos blocos anteriores, em uma forma conhecida como Cadeia de Blocos, e uma vez registradas, nunca seram removidas ou apagadas.
+                            </p>
+                            <p>Cada bloco contém, além de outras coisas, aramzenados os dados de transações anteriores e uma referência ao bloco anterior.</p>
+        <center>
+        <img width = "80%" src="http://cointelegraph.com/storage/uploads/view/2036"></img><br><p>http://cointelegraph.com/</p></center>
+                </div>
+            </section>
+
+            <!-- How to mine -->
+            <section id="howToMine">
+                <div class="container">
+                    <header class="major">
+                        <h3>Como Minerar</h3>
+                        <center><img src="images/bitcoin-golden-coins.jpg" height="240em">
+                        </center>
+                    </header>
+                    <p>Bitcoins são mais ou menos como o ouro. Como o metal precioso, elas têm que ser ‘garimpadas’ na internet através de usuários de uma aplicação gratuita que libera bitcoins em troca de um esforço computacional na resolução de problemas matemáticos complexos, que ajudam a verificar e divulgar todas as transações. A rede possui um banco de dados que se expande em blocos, que são gerados mais ou menos a cada dez minutos e que contêm todas as transações realizadas – mantendo a privacidade dos usuários, as trocas ficam abertas e podem ser checadas. Trata-se de uma medida de segurança que visa impedir que uma bitcoin seja gasta duas vezes. Com cada bloco sendo gerado com base no anterior, é impossível corromper o sistema e inserir moedas ou transações falsas.</p>
+                    <p>
+                        O ‘garimpo’ se dá de forma que a quantidade de fundos disponibilizada é ajustada em uma crescente previsível e controlada – apenas 21 milhões de bitcoins serão criadas, com uma escala pré-definida sobre a liberação delas até 2040 – tudo isso para evitar a versão digital do “basta imprimir mais dinheiro, oras”. Os mineradores são responsáveis por adicionar ‘blocos’ de transações na rede, ganhando por isso uma recompensa em bitcoins. Tecnicamente, qualquer um pode se tornar um minerador e ganhar bitcoins, mas com o tempo os problemas se tornam mais difíceis e apenas equipamentos especializados e de alta capacidade podem ajudar a resolvê-los. Supercomputadores são usados para isso, e assumem o posto de perfuradoras digitais. Hoje em dia, o equipamento para mineração já evoluiu para caros sistemas computacionais adaptados para competir por novas bitcoins, e já é bem difícil que um novato entre no jogo. Da escassez nasce o valor do Bitcoin – assim como o ouro, a demanda é limitada e o esforço para consegui-lo é cada vez maior.</p>
+                    <a href="http://gizmodo.uol.com.br/tudo-sobre-o-bitcoin/">fonte: gizmodo.uol.com.br</a>
+                </div>
+            </section>
+
+
+            <!-- Bitcoins e hashs -->
+            <section id="bitcoins_hashs">
+                <div class="container">
+                    <header class="major">
+                        <h3><span class="fa fa-btc"></span>itcoins e Hashs
+                        </h3>
+                    </header>
+                    <p>
+                        As pessoas estão enviando bitcoins uns aos outros através da rede bitcoin o tempo todo, mas a menos que alguém mantesse um registo de todas essas transações, ninguém seria capaz de manter o controle de quem tinha pago o quê. As rede de bitcoin lidam com isso armazenando todas as transações feitas durante um determinado período em uma lista, chamado de bloco. É o trabalho dos mineiros para confirmar essas transações, e gravá-los em um livro-razão geral.
+                    </p>
+                    <p>
+                        Esta contabilidade é uma longa lista de blocos, conhecido como o "blockchain" (cadeia de blocos). Ela pode ser usada para explorar qualquer transação feita entre todos os endereços bitcoin, em qualquer ponto da rede. Sempre que um novo bloco de transações é criado, ele é adicionado à blockchain, criando uma lista cada vez mais longa de todas as transações que já ocorreram na rede bitcoin. Uma cópia atualizada constantemente do bloco é dado a todos os que participam, para que eles saibam o que está acontecendo.
+                    </p>
+                    <p>
+                        Mas uma razão geral tem de ser confiável, e tudo isso é realizado digitalmente. Como podemos ter certeza de que o blockchain permanece intacta, e nunca é adulterado? Este é o lugar onde os mineiros entram.
+                    </p>
+                    <p>
+                        Quando um bloco de transações é criado, os mineiros colocá-lo através de um processo. Eles levam a informação no bloco, e aplicar uma fórmula matemática a ele, transformando-o em algo mais. Que outra coisa é uma seqüência muito mais curto, aparentemente aleatória de letras e números conhecidos como um hash. Este hash é armazenado juntamente com o bloco, no final do blockchain naquele ponto no tempo.
+                    </p>
+                    <p>
+                        Hashes têm algumas propriedades interessantes. É fácil produzir um hash de uma coleção de dados como um bloco bitcoin, mas é praticamente impossível descobrir o que os dados estavam apenas olhando para o hash. E, embora seja muito fácil de produzir um hash de uma grande quantidade de dados, cada hash é único. Se você alterar apenas um caractere em um bloco bitcoin, seu hash vai mudar completamente.
+                    </p>
+                    <p>
+                        Os mineiros não só usam as transações em um bloco para gerar um hash. Algumas outras partes de dados são usados também. Um desses pedaços de dados é o hash do último bloco armazenado no blockchain.</p>
+                    <p>Devido ao fato que o hash de cada bloco é produzido usando o hash do bloco anterior, este torna-se uma versão digital de um selo de cera. Ela confirma que este bloco - e cada bloco depois que ele - é legítimo, porque se você adulterado com ele, todos saberiam.</p>
+                    <p>Se você tentou fingir uma transação, alterando um bloco que já haviam sido armazenados no blockchain, hash que do bloco mudaria. Se alguém verificado a autenticidade do bloco executando a função de hashing sobre ela, eles acham que o hash foi diferente do que já está armazenada junto com o bloco na blockchain. O bloco seria imediatamente descoberto como uma farsa.
+</p><p>
+Devido ao fato que o hash de cada bloco é usado para ajudar a produzir o hash do próximo bloco na cadeia, adulteração com um bloco também faria ao fato que o hash do bloco subsequente errado também. Que iria continuar todo o caminho até a cadeia, jogando tudo fora de louco.</p>
+                    <a href="http://www.coindesk.com/information/how-bitcoin-mining-works/">www.coindesk.com</a>
+                </div>
+            </section>
+
+
+            <!-- more - video -->
+            <section id="moreBitcoin">
+                <div class="container">
+                    <h3>Mais sobre Bitcoins</h3>
+                    <p>Unstable experiments made over this API</p>
+                    <div class="features">
+                        <article>
+                            <a href="#" class="image"><iframe width="420" height="300" src="https://www.youtube.com/embed/0WiTaBI82Mc" frameborder="0" allowfullscreen></iframe>
+                            </a>
+                            <div class="inner">
+                                <h4 style="margin-left: 140px">Entendendo melhor</h4>
+                                <p style="margin-left: 140px">Para melhor compreensão sobre o que é, como funciona e como minerar bitcoins sugerimos o vídeo ao lado. Parte das informações escritas nesta página são originárias deste video.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <ul class="copyright">
+                    <li>UFRN - September, 30. 2015</li>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/rainbow.min.js"></script>
+
+
+    <div id="titleBar">
+        <a href="#header" class="toggle"></a><span class="title"><a href="#"><span class="fa fa-btc"></span>itcoins</a>
+        </span>
+    </div>
+    <div id="titleBar">
+        <a href="#header" class="toggle"></a><span class="title"><a href="#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="fa fa-btc"></span>itcoins</a>
+        </span>
+    </div>
+</body>
