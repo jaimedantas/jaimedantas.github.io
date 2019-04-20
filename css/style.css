@@ -185,6 +185,7 @@ fieldset {
 .section-title h2 {
     margin-top: 0;
     font-weight: 600;
+    color: #CCCCCC;
     border-bottom: 4px double #838A91;
 	border-radius: 25px;
     font-size: 30px;
@@ -192,6 +193,18 @@ fieldset {
     padding: 10px 0;
     width: 350px;
 	margin-bottom: 30px;
+}
+
+.section-title h5 {
+    margin-top: 0;
+    font-weight: 600;
+    border-bottom: 4px double #838A91;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 350px;
+    margin-bottom: 30px;
 }
 
 .section-title p {
@@ -587,16 +600,15 @@ ul.portfolio li {
     padding: 8px 12px;
     margin: 0 8px;
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
-    color: #333;
+    color: #838A91;
     border: none;
     cursor: pointer;
-    font-size: 13px;
 }
 
 ul.portfolio li:hover {
-    color: #000;
+    color: #FFFFFF;
     border: none;
 }
 
