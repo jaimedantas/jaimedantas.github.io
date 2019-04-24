@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48bee056-cefd-479f-8274-b0d95d7e8e79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ca/azadi.html" beforeDir="false" afterPath="$PROJECT_DIR$/ca/azadi.html" afterDir="false" />
-    </list>
+    <list default="true" id="48bee056-cefd-479f-8274-b0d95d7e8e79" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,10 @@
         <entry file="file://$PROJECT_DIR$/ca/azadi.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="746" column="44" selection-start-line="746" selection-start-column="44" selection-end-line="746" selection-end-column="44" />
+              <caret line="746" column="58" selection-start-line="746" selection-start-column="58" selection-end-line="746" selection-end-column="58" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#2;n#div#4;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,48 +179,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="jaimedantas.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaimedantas.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaimedantas.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaimedantas.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="ca" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaimedantas.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaimedantas.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaimedantas.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaimedantas.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="min" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jaimedantas.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jaimedantas.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="p" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556071911760" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556071958340" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -261,7 +225,7 @@
       <workItem from="1555810369235" duration="8649000" />
       <workItem from="1555854955638" duration="1578000" />
       <workItem from="1555984787133" duration="1392000" />
-      <workItem from="1556070591873" duration="1149000" />
+      <workItem from="1556070591873" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="fixed spelling mistakes">
       <created>1555868523259</created>
@@ -274,11 +238,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50714000" />
+    <option name="totallyTimeSpent" value="50925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -297,7 +260,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.930137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.930137" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -529,7 +492,10 @@
     <entry file="file://$PROJECT_DIR$/ca/azadi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="746" column="44" selection-start-line="746" selection-start-column="44" selection-end-line="746" selection-end-column="44" />
+          <caret line="746" column="58" selection-start-line="746" selection-start-column="58" selection-end-line="746" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#2;n#div#4;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
