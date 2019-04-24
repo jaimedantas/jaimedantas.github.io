@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bee056-cefd-479f-8274-b0d95d7e8e79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ca/azadi.html" beforeDir="false" afterPath="$PROJECT_DIR$/ca/azadi.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ca/azadi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="141" column="18" lean-forward="true" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
+            <state relative-caret-position="95">
+              <caret line="746" column="44" selection-start-line="746" selection-start-column="44" selection-end-line="746" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -115,7 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>and em</find>
       <find>768</find>
       <find>canada</find>
       <find>h2</find>
@@ -145,6 +145,7 @@
       <find>docke</find>
       <find>gover</find>
       <find>govern</find>
+      <find>me.</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;../im</replace>
@@ -170,10 +171,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="727" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -220,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555878198295" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556071911760" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -260,7 +260,8 @@
       <workItem from="1555695046689" duration="37946000" />
       <workItem from="1555810369235" duration="8649000" />
       <workItem from="1555854955638" duration="1578000" />
-      <workItem from="1555984787133" duration="774000" />
+      <workItem from="1555984787133" duration="1392000" />
+      <workItem from="1556070591873" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="fixed spelling mistakes">
       <created>1555868523259</created>
@@ -273,10 +274,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48947000" />
+    <option name="totallyTimeSpent" value="50714000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="727" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25767368" />
@@ -296,7 +297,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.9315069" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.930137" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -527,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ca/azadi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="141" column="18" lean-forward="true" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
+        <state relative-caret-position="95">
+          <caret line="746" column="44" selection-start-line="746" selection-start-column="44" selection-end-line="746" selection-end-column="44" />
         </state>
       </provider>
     </entry>
