@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48bee056-cefd-479f-8274-b0d95d7e8e79" name="Default Changelist" comment="" />
+    <list default="true" id="48bee056-cefd-479f-8274-b0d95d7e8e79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ca/azadi.html" beforeDir="false" afterPath="$PROJECT_DIR$/ca/azadi.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ca/azadi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="746" column="58" selection-start-line="746" selection-start-column="58" selection-end-line="746" selection-end-column="58" />
+            <state relative-caret-position="218">
+              <caret line="1021" column="31" selection-start-line="1021" selection-start-column="31" selection-end-line="1021" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#2;n#div#4;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -80,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="585">
+              <caret line="39" selection-start-line="39" selection-end-line="41" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#h1#0;n#header#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -116,7 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>768</find>
       <find>canada</find>
       <find>h2</find>
       <find>expert</find>
@@ -146,6 +148,7 @@
       <find>gover</find>
       <find>govern</find>
       <find>me.</find>
+      <find>instru</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;../im</replace>
@@ -162,11 +165,11 @@
         <option value="$PROJECT_DIR$/js/p/scripts.js" />
         <option value="$PROJECT_DIR$/ca/resume.html" />
         <option value="$PROJECT_DIR$/js/p/scripts.niu.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ca/rockies.html" />
         <option value="$PROJECT_DIR$/ca/cookiemonster.html" />
         <option value="$PROJECT_DIR$/resume.html" />
         <option value="$PROJECT_DIR$/js/p/scripts.cor.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ca/azadi.html" />
       </list>
     </option>
@@ -179,12 +182,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jaimedantas.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaimedantas.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jaimedantas.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaimedantas.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="ca" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556071958340" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556236170610" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -226,6 +248,9 @@
       <workItem from="1555854955638" duration="1578000" />
       <workItem from="1555984787133" duration="1392000" />
       <workItem from="1556070591873" duration="1360000" />
+      <workItem from="1556145872846" duration="314000" />
+      <workItem from="1556149408968" duration="124000" />
+      <workItem from="1556233703904" duration="557000" />
     </task>
     <task id="LOCAL-00001" summary="fixed spelling mistakes">
       <created>1555868523259</created>
@@ -238,12 +263,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50925000" />
+    <option name="totallyTimeSpent" value="51920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,7 +286,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.930137" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.58219177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -464,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="41" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#a#0;n#h1#0;n#header#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -491,8 +517,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ca/azadi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="746" column="58" selection-start-line="746" selection-start-column="58" selection-end-line="746" selection-end-column="58" />
+        <state relative-caret-position="218">
+          <caret line="1021" column="31" selection-start-line="1021" selection-start-column="31" selection-end-line="1021" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#2;n#div#4;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
