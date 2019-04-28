@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48bee056-cefd-479f-8274-b0d95d7e8e79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ca/azadi.html" beforeDir="false" afterPath="$PROJECT_DIR$/ca/azadi.html" afterDir="false" />
-    </list>
+    <list default="true" id="48bee056-cefd-479f-8274-b0d95d7e8e79" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ca/azadi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="478" column="91" selection-start-line="478" selection-start-column="91" selection-end-line="478" selection-end-column="91" />
+            <state relative-caret-position="76">
+              <caret line="490" column="51" lean-forward="true" selection-start-line="490" selection-start-column="51" selection-end-line="490" selection-end-column="51" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#2;n#div#4;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -251,7 +248,7 @@
       <workItem from="1556145872846" duration="314000" />
       <workItem from="1556149408968" duration="124000" />
       <workItem from="1556233703904" duration="987000" />
-      <workItem from="1556338468867" duration="455000" />
+      <workItem from="1556338468867" duration="863000" />
     </task>
     <task id="LOCAL-00001" summary="fixed spelling mistakes">
       <created>1555868523259</created>
@@ -264,11 +261,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52805000" />
+    <option name="totallyTimeSpent" value="53213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,7 +283,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.58219177" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.58219177" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -518,8 +514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ca/azadi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="478" column="91" selection-start-line="478" selection-start-column="91" selection-end-line="478" selection-end-column="91" />
+        <state relative-caret-position="76">
+          <caret line="490" column="51" lean-forward="true" selection-start-line="490" selection-start-column="51" selection-end-line="490" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#2;n#div#4;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
