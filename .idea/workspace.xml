@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48bee056-cefd-479f-8274-b0d95d7e8e79" name="Default Changelist" comment="edited config">
-      <change afterPath="$PROJECT_DIR$/ca/east.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/p/scripts.east.js" afterDir="false" />
+    <list default="true" id="48bee056-cefd-479f-8274-b0d95d7e8e79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/p/scripts.sco.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scotiabank.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,15 +35,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ca/east.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="1151" column="43" selection-start-line="1151" selection-start-column="40" selection-end-line="1151" selection-end-column="43" />
+            <state relative-caret-position="405">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scotiabank.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="1156" column="56" selection-start-line="1156" selection-start-column="56" selection-end-line="1156" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ca/east22.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/js/p/scripts.sco.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="119" column="28" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -93,18 +106,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ca/azadi.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="1172" column="57" lean-forward="true" selection-start-line="1172" selection-end-line="1173" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#2;n#div#4;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/p/scripts.cil.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
@@ -133,7 +134,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>do</find>
       <find>docke</find>
       <find>gover</find>
       <find>govern</find>
@@ -163,6 +163,7 @@
       <find>citi</find>
       <find>.cit</find>
       <find>../</find>
+      <find>cit</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;../im</replace>
@@ -194,6 +195,9 @@
         <option value="$PROJECT_DIR$/citi.html" />
         <option value="$PROJECT_DIR$/js/p/scripts.east.js" />
         <option value="$PROJECT_DIR$/ca/east.html" />
+        <option value="$PROJECT_DIR$/ca/east22.html" />
+        <option value="$PROJECT_DIR$/scotiabank.html" />
+        <option value="$PROJECT_DIR$/js/p/scripts.sco.js" />
       </list>
     </option>
   </component>
@@ -241,7 +245,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567470874555" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567472833014" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -254,9 +258,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ca" />
       <recent name="$PROJECT_DIR$/js/p" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ca" />
       <recent name="$PROJECT_DIR$/clab" />
       <recent name="$PROJECT_DIR$/old" />
     </key>
@@ -438,14 +442,22 @@
       <option name="project" value="LOCAL" />
       <updated>1567467701360</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="edited config">
+      <created>1567470891762</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1567470891762</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66480000" />
+    <option name="totallyTimeSpent" value="67788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23021002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -551,23 +563,10 @@
     <MESSAGE value="added email address" />
     <MESSAGE value="added new page" />
     <MESSAGE value="edit bio" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit bio" />
+    <MESSAGE value="edited config" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited config" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="266" column="47" selection-start-line="266" selection-start-column="47" selection-end-line="266" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/applications.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -879,13 +878,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ca/east.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="1151" column="43" selection-start-line="1151" selection-start-column="40" selection-end-line="1151" selection-end-column="43" />
+        <state relative-caret-position="216">
+          <caret line="142" selection-start-line="142" selection-end-line="150" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ca/east22.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/ca/east.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scotiabank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="1156" column="56" selection-start-line="1156" selection-start-column="56" selection-end-line="1156" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/p/scripts.sco.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="119" column="28" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
