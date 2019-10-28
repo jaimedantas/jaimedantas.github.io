@@ -110,10 +110,10 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["Hello recruiter!",
+            strings: ["Dear Faculty Members,",
                 "I hope you are having a wonderful day.",
                 "My name is Jaime, and I am a Software Engineer.",
-                "I would love to work in Scotiabank.",
+                "I would love to become a graduate student at York.",
                 "Thank you for your time.",
                 "Have a nice day."],
             typeSpeed: 110,
