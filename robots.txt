@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /pdf/
+Disallow: /ca/
+Sitemap: https://jaimedantas.com/sitemap.xml
