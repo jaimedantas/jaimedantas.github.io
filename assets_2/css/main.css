@@ -949,6 +949,10 @@ a:hover {
         font-size: 11pt;
     }
 
+    .button {
+        padding: 5px 40px;
+    }
+
     /* BG */
     @-moz-keyframes bg {
         0% {
