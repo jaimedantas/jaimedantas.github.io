@@ -40,6 +40,8 @@
 @import url("fontsResume.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap');
+
 html {
     font-size: 10px;
 }
@@ -1936,4 +1938,11 @@ ul.portfolio li.active {
     .notfound .notfound-404 h1 {
         font-size: 112px;
     }
+}
+
+
+#particles-js {
+    background-color: #000000;
+    height: 860px;
+    width: 100%;
 }
