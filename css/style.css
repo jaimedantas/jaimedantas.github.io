@@ -1890,7 +1890,7 @@ ul.portfolio li.active {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    background: url('../images/bg/bg_404.jpg') no-repeat;
+    background: url('https://jaimedantas.com/images/bg/bg_404.jpg') no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
